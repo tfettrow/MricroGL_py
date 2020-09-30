@@ -7,7 +7,8 @@ gl.resetdefaults()
 
 #gl.loadimage('//cifs.rc.ufl.edu/ufrc/rachaelseidler/tfettrow/Crunch_Code/MR_Templates/Template_4_IXI555_MNI152_GS.nii')
 gl.loadimage('//cifs.rc.ufl.edu/ufrc/rachaelseidler/tfettrow/Crunch_Code/MR_Templates/MNI_2mm.nii')
-OA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/oldadult/spmT_0002.nii']
+OA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/oldadult/spmT_0001.nii']
+#OA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/oldadult/spmT_0002.nii']
 #OA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/oldadult/spmT_0003.nii']
 #OA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/oldadult/spmT_0004.nii']
 #OA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/oldadult/spmT_0005.nii']
@@ -23,10 +24,11 @@ gl.colorbarposition(0)
 gl.savebmp(OA_filename[0])
 
 gl.loadimage('//cifs.rc.ufl.edu/ufrc/rachaelseidler/tfettrow/Crunch_Code/MR_Templates/MNI_2mm.nii')
+YA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/youngadult/spmT_0001.nii']
 #YA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/youngadult/spmT_0002.nii']
 #YA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/youngadult/spmT_0003.nii']
 #YA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/youngadult/spmT_0004.nii']
-YA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/youngadult/spmT_0005.nii']
+#YA_filename = ['//cifs.rc.ufl.edu/ufrc/rachaelseidler/share/FromExternal/Research_Projects_UF/CRUNCH/MiM_Data/Level2_Results/MRI_files/05_MotorImagery/youngadult/spmT_0005.nii']
 
 gl.overlayload(YA_filename[0])
 gl.minmax(1, 1, 5)
